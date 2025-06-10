@@ -19,4 +19,5 @@
 #
 ---
 include:
-  - board: bt75_v1
+  - board: esp32-S3-devkitc
+  - shield: SporkBoard
