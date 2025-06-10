@@ -19,5 +19,5 @@
 #
 ---
 include:
-  - board: esp32-S3-devkitc
+  - board: esp32s3_devkitm
   - shield: SporkBoard
