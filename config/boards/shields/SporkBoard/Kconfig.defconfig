@@ -5,9 +5,9 @@ if SHIELD_SPORKBOARD
         default "Spork Board"
     
     config I2C
-		default y
+        default y
 
     config GPIO_MCP230XX
         default y
 
-endif
+    endif
