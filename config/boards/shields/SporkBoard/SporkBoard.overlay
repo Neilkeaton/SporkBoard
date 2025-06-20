@@ -7,23 +7,6 @@
     };
 
     // -----------------------------------------------------------
-    // I2C Bus & MCP23017 I/O Expander Configuration
-    // -----------------------------------------------------------
-    &pro_micro_i2c {
-        status = "okay";
-
-        mcp_io: mcp23017@20 {
-            compatible = "microchip,mcp23017";
-            reg = <0x20>;
-            gpio-cells = <2>;
-            ngpios = <16>;
-            status = "okay";
-
-            int-gpios = <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_DOWN)>;
-        };
-    };
-
-    // -----------------------------------------------------------
     // Keyboard Matrix Scan Configuration
     // -----------------------------------------------------------
     &kscan0: kscan {
@@ -74,4 +57,22 @@
             RC(5,0) RC(5,1) RC(5,2) RC(5,3) RC(5,4) RC(5,5) RC(5,6) RC(5,7) RC(5,8) RC(5,9) RC(5,10) RC(5,11) RC(5,12) RC(5,13) RC(5,14) RC(5,15)
         >;
     };
+
+// -----------------------------------------------------------
+// I2C Bus & MCP23017 I/O Expander Configuration
+// -----------------------------------------------------------
+&pro_micro_i2c {
+    status = "okay";
+
+    mcp_io: mcp23017@20 {
+        compatible = "microchip,mcp23017";
+        reg = <0x20>;
+        gpio-cells = <2>;
+        ngpios = <16>;
+        status = "okay";
+
+        int-gpios = <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_DOWN)>;
+        };
+    };
+
 };
