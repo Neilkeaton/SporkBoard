@@ -12,6 +12,7 @@
         gpio-cells = <2>;
         ngpios = <16>;
         status = "okay";
+        gpio-controller;
 
         int-gpios = <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_DOWN)>;
         };
