@@ -1,7 +1,7 @@
 if SHIELD_SPORKBOARD
 
 # Name must be less than 16 characters long!
-config SPORKBOARD
-    default "Spork Board"
+    config SPORKBOARD
+        default "Spork Board"
 
 endif
