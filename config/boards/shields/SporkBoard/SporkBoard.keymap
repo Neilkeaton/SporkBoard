@@ -5,33 +5,6 @@
 
 / {
 
-
-behaviors {
-    mo: momentary_layer {
-        compatible = "zmk,behavior-momentary-layer";
-        label = "MOMENTARY_LAYER";
-    };
-    kp: key_press {
-        compatible = "zmk,behavior-key-press";
-        label = "KEY_PRESS";
-    };
-    // Add these:
-    trans: transparent {
-        compatible = "zmk,behavior-transparent";
-        label = "TRANSPARENT";
-    };
-    bt: bluetooth_select {
-        // Check ZMK source for exact compatible string if this doesn't work
-        compatible = "zmk,behavior-bluetooth-select"; 
-        label = "BLUETOOTH_SELECT";
-    };
-    bt_clear: bluetooth_clear {
-        // Check ZMK source for exact compatible string if this doesn't work
-        compatible = "zmk,behavior-bluetooth-clear"; 
-        label = "BLUETOOTH_CLEAR";
-    };
-};
-
   keymap {
     compatible = "zmk,keymap";
 
