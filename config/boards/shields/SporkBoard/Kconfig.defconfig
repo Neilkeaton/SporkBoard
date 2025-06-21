@@ -5,7 +5,7 @@ if SHIELD_SPORKBOARD
         default "Spork Board"
 
     config ZMK_KEYBOARD_NAME
-        default "SporkBoard"
+        default "Spork Board"
 
 	config ZMK_KSCAN_MATRIX_POLLING
 		default y
