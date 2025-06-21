@@ -3,11 +3,21 @@ if SHIELD_SPORKBOARD
 # Name must be less than 16 characters long!
     config BOARD
         default "Spork Board"
-    
+
+    config ZMK_KEYBOARD_NAME
+        default "SporkBoard"
+
+	config ZMK_KSCAN_MATRIX_POLLING
+		default y
+
     config I2C
         default y
 
     config GPIO_MCP230XX
         default y
+
+	config ZMK_USB
+		default y
+        
 
     endif
