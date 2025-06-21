@@ -2,10 +2,10 @@ if SHIELD_SPORKBOARD
 
 # Name must be less than 16 characters long!
     config BOARD
-        default "Spork Board"
+        default "Spork"
 
     config ZMK_KEYBOARD_NAME
-        default "Spork Board"
+        default "Spork"
 
 	config ZMK_KSCAN_MATRIX_POLLING
 		default y
