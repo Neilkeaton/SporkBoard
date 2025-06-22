@@ -41,22 +41,22 @@
 
 
         // --- Columns (16 total) ---
-        col-gpios = <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
-                    <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
-                    <&gpio1 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
-                    <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
-                    <&mcp_io 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
-                    <&mcp_io 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
-                    <&mcp_io 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
-                    <&mcp_io 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
-                    <&mcp_io 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
-                    <&mcp_io 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
-                    <&mcp_io 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
-                    <&mcp_io 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
-                    <&mcp_io 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
-                    <&mcp_io 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
-                    <&mcp_io 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
-                    <&mcp_io 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        col-gpios = <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+                    <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+                    <&gpio1 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+                    <&gpio0 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+                    <&mcp_io 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+                    <&mcp_io 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+                    <&mcp_io 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+                    <&mcp_io 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+                    <&mcp_io 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+                    <&mcp_io 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+                    <&mcp_io 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+                    <&mcp_io 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+                    <&mcp_io 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+                    <&mcp_io 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+                    <&mcp_io 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+                    <&mcp_io 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 
     };
 
