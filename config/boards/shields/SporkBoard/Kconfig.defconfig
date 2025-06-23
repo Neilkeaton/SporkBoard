@@ -7,9 +7,6 @@ if SHIELD_SPORKBOARD
     config ZMK_KEYBOARD_NAME
         default "SporkBoard"
 
-	config ZMK_KSCAN_MATRIX_POLLING
-		default y
-
     config I2C
         default y
 
@@ -18,9 +15,6 @@ if SHIELD_SPORKBOARD
 
 	config ZMK_USB
 		default y
-
-    CONFIG ZMK_USB_BOOT
-        default y
         
 
     endif
