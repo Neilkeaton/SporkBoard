@@ -18,6 +18,9 @@ if SHIELD_SPORKBOARD
 
 	config ZMK_USB
 		default y
+
+    CONFIG ZMK_USB_BOOT
+        default y
         
 
     endif
