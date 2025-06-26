@@ -45,5 +45,11 @@
         &trans &trans &mo 1 &trans &trans &trans &trans &trans &trans &trans &mo 1 &trans &trans &trans &trans &trans
       >;
     };
+    extra1 {
+      status = "reserved";
+    };
+    extra2 {
+      status = "reserved";
+    };
   };
 };
